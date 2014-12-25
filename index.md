@@ -1,6 +1,7 @@
 ---
 layout: page
-title: ansidev.github.io | Just a Jekyll Blog
+title: Blog Home
+tagline: "Just a Jekyll Blog"
 ---
 {% include JB/setup %}
 

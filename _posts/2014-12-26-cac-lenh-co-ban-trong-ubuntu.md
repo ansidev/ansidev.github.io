@@ -2,8 +2,8 @@
 layout: post
 title: "Các lệnh cơ bản trong Ubuntu"
 description: ""
-category:
-tags: []
+category: ubuntu
+tags: [ubuntu, linux, command line]
 ---
 {% include JB/setup %}
 
