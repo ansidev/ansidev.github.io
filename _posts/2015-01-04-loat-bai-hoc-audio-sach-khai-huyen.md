@@ -58,7 +58,7 @@ Gói 2: File của gói 1 nhưng đã chia làm 4 part để tải về dễ dà
 
   > Filename: Bai_hoc_Kinh_Thanh_theo_Khai_huyen.7z.004
   >
-  > Link: Đang cập nhật
+  > Link: <https://www.fshare.vn/file/54SGK6WRUQUQ>
   >
   > Dung lượng tải về: **~130 MB**.
   >
