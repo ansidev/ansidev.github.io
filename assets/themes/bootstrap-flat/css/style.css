@@ -44,11 +44,11 @@
   float: left; }
 
 .tag_box a {
-  padding: 3px 6px;
+  padding: 6px;
   margin: 2px;
   background: #337ab7;
   color: #fff;
-  border-radius: 3px;
+  /*border-radius: 3px;*/
   text-decoration: none;
   border: 1px dashed #337ab7; }
 
@@ -57,11 +57,17 @@
   font-size: 0.8em; }
 
 .tag_box a:hover {
-  background-color: #5cb85c;
-  border-color: #5cb85c;
+  background-color: #d9534f;
+  border-color: #d9534f;
 }
 
 .tag_box a.active {
   background: #5cb85c;
   border: 1px solid #5cb85c;
   color: #000; }
+
+/*Bootstrap class customize*/
+.badge {
+  background-color: #000;
+  /*color: #000;*/
+}
