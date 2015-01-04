@@ -82,7 +82,7 @@ Hướng dẫn sử dụng:
 
   Trong hộp thoại hiện ra, chọn kiểu hash là `MD5`, nhấn Start và đợi chương trình làm việc.
 
-  Sau khi chương trình tính toán xong thì copy mã MD5 đã được cung cấp bên trên dán vào mục `Verify with`.
+  Sau khi chương trình tính toán xong thì chọn file cần đối chiếu mã MD5, copy mã MD5 đã được cung cấp bên trên dán vào mục `Verify with`.
 
   Nếu bên phải textbox hiện icon hình chữ V là OK, nếu là icon hình chữ X thì bạn nên download lại file.
   Phần mềm này còn có rất nhiều chức năng khác.
