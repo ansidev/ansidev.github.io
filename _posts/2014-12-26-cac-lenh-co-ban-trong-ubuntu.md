@@ -2,22 +2,25 @@
 layout: post
 title: "Các lệnh cơ bản trong Ubuntu"
 description: ""
-category: ubuntu
+category: [ubuntu, tutorial]
 tags: [ubuntu, linux, command line]
+author: ansidev
 ---
-{% include JB/setup %}
 
 #1. Kiểm tra danh sách các bản cập nhật
----
-~~~ shell
-sudo apt-get update
-~~~
+
+{% highlight bash %}
+  sudo apt-get update
+{% endhighlight %}
+
 #2. Cập nhật, nâng cấp các package
----
-~~~ shell
-    sudo apt-get upgrade
-~~~
-~~~ shell
-    sudo apt-get dist-upgrade
-~~~
+
+{% highlight bash %}
+  sudo apt-get upgrade
+{% endhighlight %}
+
+{% highlight bash %}
+sudo apt-get dist-upgrade
+{% endhighlight %}
+
 > **Tips**: Sử dụng tham số `-y` để tự động confirm.

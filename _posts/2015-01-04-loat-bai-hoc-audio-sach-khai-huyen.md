@@ -4,8 +4,8 @@ title: "Loạt bài học audio sách Khải huyền"
 description: ""
 category: duong linh
 tags: [fshare, khải huyền, audio, bài học, chia sẻ, file]
+author: ansidev
 ---
-{% include JB/setup %}
 
 #1. Giới thiệu
 -------------
