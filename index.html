@@ -9,22 +9,24 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">
-          {{ post.date | date: "%b %-d, %Y" }}
-          {% if post.author %}
-           • Author: {{ post.author }}
-          {% endif %}
-          {% if post.category %}
-          • Category:
-          {% for cat in post.category %}
-          {{ cat }},
-          {% endfor %}
-          {% endif %}
-        </span>
         <h2>
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <span class="post-meta">
+          Posted on {{ post.date | date: "%b %-d, %Y" }}
+          {% if post.author %}
+           • Author: <a href="{{ post.author | prepend: site.baseurl }}">{{ post.author }}</a>
+          {% endif %}
+          {% if post.categories %}
+          • Category:
+          {% for category in post.categories %}
+          {{ category }},
+          {% endfor %}
+          {% endif %}
+        </span>
+        {{ post.excerpt }}
       </li>
+      <hr>
     {% endfor %}
   </ul>
 

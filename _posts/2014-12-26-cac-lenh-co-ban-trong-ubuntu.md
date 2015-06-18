@@ -2,7 +2,7 @@
 layout: post
 title: "Các lệnh cơ bản trong Ubuntu"
 description: ""
-category: [ubuntu, tutorial]
+categories: [ubuntu, tutorial]
 tags: [ubuntu, linux, command line]
 author: ansidev
 ---

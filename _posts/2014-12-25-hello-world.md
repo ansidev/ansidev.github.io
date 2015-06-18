@@ -1,6 +1,6 @@
 ---
 layout: post
-category : blog
+categories : blog
 tags : [intro, beginner, jekyll]
 author: ansidev
 ---

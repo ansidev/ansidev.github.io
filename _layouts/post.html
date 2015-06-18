@@ -11,10 +11,10 @@ layout: default
         by {{ page.author }}
       {% endif %}
 
-      {% if page.category %}
+      {% if page.categories %}
         • Category:
-        {% for cat in page.category %}
-        {{ cat }},
+        {% for category in page.categories %}
+        {{ category }},
         {% endfor %}
       {% endif %}
 
@@ -25,4 +25,20 @@ layout: default
   <article class="row">
     {{ content }}
   </article>
+
+  <nav>
+    <ul class="pagination">
+      {% if page.previous %}
+      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
+      {% else %}
+      <li class="prev disabled"><a>&larr; Previous</a></li>
+      {% endif %}
+      <li><a href="{{ BASE_PATH }}{{ site.page.archive.url }}">Archive</a></li>
+      {% if page.next %}
+      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a></li>
+      {% else %}
+      <li class="next disabled"><a>Next &rarr;</a>
+        {% endif %}
+    </ul>
+  </nav>
 </div>
